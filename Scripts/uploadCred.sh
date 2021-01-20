@@ -1,4 +1,5 @@
 #!/bin/bash
+# Upload ssh keys to VMs.
 
 while read ip; do
     ssh-copy-id -i ~/.ssh/id_rsa_work mpjuers@"$ip"
