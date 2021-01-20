@@ -10,7 +10,7 @@ wplatform='unknown'
 unamestr=$(uname)
 if [ "$unamestr" = 'Linux' ]; then
    sed='sed'
-elif [ "$unamestr" = 'FreeBSD' ]; then
+elif [ "$unamestr" = 'Darwin' ]; then
    sed=gsed
 fi
 

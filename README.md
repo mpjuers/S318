@@ -8,7 +8,8 @@
 - ip_roster.csv: Mapping between ip addresses and users. Servers do not have
   to be named, but, students must be in the third column
   *delimited by spaces rather than commas*.
-- admins.txt: Newline-delimited text file containing the names of all admins.
+- admins.csv: Comma-delimited text file containing the names of all admins
+  and their associated ssh public keys, with a '>' between entries.
 
 ## Scripts
 - addUsers.sh: Add student users, according to ip_roster.csv
